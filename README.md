@@ -2,7 +2,6 @@
 
 ##### Convert boolean values to strings 'Yes' or 'No'. #####
 **8 kyu**
-*My solution*
 
 ```javascript
 function boolToWord( bool ){
@@ -11,5 +10,14 @@ function boolToWord( bool ){
   }else{
     return "No"
   }
+}
+```
+
+##### Reversed Strings #####
+**8 kyu**
+
+```javascript
+function solution(str){
+  return str.split('').reverse().join('');
 }
 ```
