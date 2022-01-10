@@ -1,6 +1,6 @@
 # My Codewars Solutions
 
-##### Convert boolean values to strings 'Yes' or 'No'. #####
+#### Convert boolean values to strings 'Yes' or 'No'. ####
 **8 kyu**
 
 ```javascript
@@ -13,7 +13,7 @@ function boolToWord( bool ){
 }
 ```
 
-##### Reversed Strings #####
+#### Reversed Strings ####
 **8 kyu**
 
 ```javascript
@@ -22,7 +22,7 @@ function solution(str){
 }
 ```
 
-##### Grasshopper - Summation #####
+#### Grasshopper - Summation ####
 **8 kyu**
 
 ```javascript
@@ -35,13 +35,28 @@ var summation = function (num) {
 }
 ```
 
-##### Find the smallest integer in the array #####
+#### Grasshopper - Summation ####
 **8 kyu**
 
 ```javascript
-class SmallestIntegerFinder {
-  findSmallestInt(args) {
-     return Math.min(...args);
+var summation = function (num) {
+  let result = 0;
+  for (let i = 0; i <= num; i++) {
+    result += i;
   }
+  return result;
+}
+```
+
+#### Square(n) Sum ####
+**8 kyu**
+
+```javascript
+function squareSum(numbers){
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i] ** 2;
+  }
+  return sum;
 }
 ```
