@@ -95,3 +95,18 @@ function squareDigits(num){
   return parseInt(result)           // turn the string into a number
 }
 ```
+
+#### Highest and Lowest ####
+**7 kyu**
+
+```javascript
+function highAndLow(numbers){
+  let array = numbers.split(" ");
+  let big = Math.max.apply(null, array);
+  let small = Math.min.apply(null, array);
+  
+  return `${big} ${small}`
+}
+```
+
+
