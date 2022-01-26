@@ -109,4 +109,31 @@ function highAndLow(numbers){
 }
 ```
 
+#### Is n divisible by x and y? ####
+**8 kyu**
 
+```javascript
+function isDivisible(n, x, y) {
+  return n % x === 0 && n % y === 0
+}
+```
+
+#### Basic Mathematical Operations ####
+**8 kyu**
+
+```javascript
+function basicOp(operation, value1, value2) {
+    switch (operation) {
+        case '+':
+            return value1 + value2;
+        case '-':
+            return value1 - value2;
+        case '*':
+            return value1 * value2;
+        case '/':
+            return value1 / value2;
+        default:
+            return 0;
+    }
+}
+```
